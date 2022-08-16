@@ -77,6 +77,7 @@ module.exports = {
         password,
         createdAt: new Date().toISOString(),
         modifiedAt: new Date().toISOString(),
+        lastLogin: new Date().toISOString(),
         firstname,
         lastname,
         role,
